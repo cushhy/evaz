@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ЭВАЗ</title>
+</head>
+
+<body>
+
+    <div class="collect" id="collect">
+        <a class="collect__text" href="#modalForm">Коллекторы мешают спокойно жить? Скачайте инструкцию, по которой вы
+            можете прекратить звонки
+        </a>
+        <a class="collect__close" href="#header">X</a>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header__left">
+            <div class="logo__top">
+                <img class="logo_img" src="assets/img/logo.png" alt="">
+                <div class="logo__title">ЭВАЗ</div>
+            </div>
+            <div class="logo__subtitle">центр помощи по списанию долгов</div>
+        </div>
+        <div class="header__right">
+            <div class="header__contact">
+                <a class="contact__ico" href="tg://resolve?domain=+79958501727" target="_blank">
+                    <img class="contact__ico" src="assets/img/telegram.png" alt="">
+                </a>
+                <a class="contact__ico" href="https://api.whatsapp.com/send/?phone=%2B79958501727&text&app_absent=0"
+                    target="_blank">
+                    <img class="contact__ico" src="assets/img/whatsap.png" alt="">
+                </a>
+                <div class="contact__call">
+                    <div class="contact__number">
+                        <a href="#">+7 (995) 850 17 27</a>
+                    </div>
+                    <div class="contact__subtitle">Мы работаем ежедневно с 8 до 20ч</div>
+                </div>
+            </div>
+            <div class="header__button">
+                <button class="header_btn">
+                    <a href="#modalForm">Заказать звонок</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="intro" id="intro">
+        <div class="intro__left">
+            <div class="intro__title">Гарантированно спишем все долги<br>за <span>60</span> дней и <span>9 900</span>
+                руб
+                в месяц!</div>
+            <div class="intro__subtitle">100% списание долгов или возврат денег! </div>
+            <div class="intro__item">
+                <img src="assets/img/guard.png" alt="">
+                <div class="intro__text">Персональный юрист 24/7</div>
+            </div>
+            <div class="intro__item">
+                <img src="assets/img/guard.png" alt="">
+                <div class="intro__text">7 лет в банкротстве физ лиц</div>
+            </div>
+            <div class="intro__item">
+                <img src="assets/img/guard.png" alt="">
+                <div class="intro__text">Списание долгов в рассрочку без %</div>
+            </div>
+            <div class="intro__item">
+                <img src="assets/img/guard.png" alt="">
+                <div class="intro__text">Все расходы включены в договор</div>
+            </div>
+            <div class="intro__button">
+                <button class="intro__btn">
+                    <a href="#modalForm">хочу списать долги</a>
+                </button>
+            </div>
+        </div>
+        <div class="intro__right">
+            <img class="intro__man" src="assets/img/man1block.png" alt="">
+        </div>
+    </div>
+
+    <section class="section" id="benefits">
+        <div class="section__title">Преимущества процедуры банкротства</div>
+        <div class="section__subtitle">Обращаясь к нам, вы получаете услугу «под ключ»,<br> без скрытых и
+            дополнительныхплатежей </div>
+
+        <div class="service">
+            <div class="service__item">
+                <img class="service__ico" src="assets/img/phone.png" alt="">
+                <div class="service__title">Прекратим звонки коллекторов<br> за 3 дня с гарантией по договору</div>
+            </div>
+            <div class="service__item">
+                <img class="service__ico" src="assets/img/air.png" alt="">
+                <div class="service__title">Снимем все аресты, в<br> том числе на вылет из страны</div>
+            </div>
+            <div class="service__item">
+                <img class="service__ico" src="assets/img/house.png" alt="">
+                <div class="service__title">Поможем сохранить<br>все имущество и автомобиль</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="rate">
+        <div class="section__title">Наши услуги и тарифы</div>
+        <div class="rate">
+            <div class="rate__item">
+                <div class="rate__title">Консультация<br><span>бесплатно</span></div>
+                <div class="rate__subtitle">Начните с бесплатной консультации</div>
+                <div class="rate__text">+ Изучим ваши кредитные договоры</div>
+                <div class="rate__text">+ Расскажем как вести<br>с кредиторами</div>
+                <div class="rate__text">+ Вы получите 2-3 варианта решения<br>и пошаговый алгоритм действий</div>
+            </div>
+            <div class="rate__item">
+                <div class="rate__title">Базовый пакет<br><span>6 600 руб/мес</span></div>
+                <div class="rate__subtitle">Для стандартных ситуаций</div>
+                <div class="rate__text">+ Пакет документов</div>
+                <div class="rate__text">+ Юридическое сопровождение</div>
+                <div class="rate__text">+ Арбитражный управляющий</div>
+            </div>
+            <div class="rate__item">
+                <div class="rate__title">Премиум пакет<br><span>9 900 руб/мес</span></div>
+                <div class="rate__subtitle">Для тех кто хочет добиться максимума</div>
+                <div class="rate__text">+ Все позиции пакета базовый</div>
+                <div class="rate__text">+ План максимальной выгоды</div>
+                <div class="rate__text">+ Защита дорогостоящего имущества</div>
+            </div>
+        </div>
+        <button class="rate__btn">
+            <a href="#modalForm">Получить консультацию</a>
+        </button>
+    </section>
+
+    <div class="check" id="check">
+        <div class="check__left">
+            <img class="check__man" src="assets/img/man2block.png" alt="">
+        </div>
+        <div class="check__right">
+            <div class="check__title">Проверьте себя по базе ФССП</div>
+            <div class="check__subtitle">Более 50% должников не знают, что на них подали в суд или уже
+                есть<br>исполнительное производство</div>
+            <div class="check__button">
+                <button class="check__btn">
+                    <a href="#modalFSSP">Проверить себя</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="section" id="results">
+        <div class="section__title">Более 3500 выйгранных дел с 2016 года</div>
+        <div class="section__subtitle">Наши юристы специализируются исключительно на процедуре<br> банкротства и имеют
+            огромный опыт</div>
+        <div class="deal">
+            <div class="deal__item">
+                <img class="deal__img" src="assets/img/deal.png" alt="">
+                <div class="deal__title">Решение №A40-224065/18-78-<br>
+                    277 Б
+                </div>
+                <div class="deal__subtitle">СУММА СПИСАННОГО ДОЛГА:<br>
+                    2 485 225,93 руб</div>
+            </div>
+            <div class="deal__item">
+                <img class="deal__img" src="assets/img/deal.png" alt="">
+                <div class="deal__title">Решение №Б49-120981/191-21
+                </div>
+                <div class="deal__subtitle">СУММА СПИСАННОГО ДОЛГА:<br>
+                    854 117,91 руб</div>
+            </div>
+            <div class="deal__item">
+                <img class="deal__img" src="assets/img/deal.png" alt="">
+                <div class="deal__title">Решение №A40-105892/2018</div>
+                <div class="deal__subtitle">СУММА СПИСАННОГО ДОЛГА:<br>
+                    3 019 559,02 руб</div>
+            </div>
+            <div class="deal__item">
+                <img class="deal__img" src="assets/img/deal.png" alt="">
+                <div class="deal__title">Решение №A41-190812/904-<br>
+                    22</div>
+                <div class="deal__subtitle">СУММА СПИСАННОГО ДОЛГА:<br>
+                    4 115 505,03 руб</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="collector" id="collector">
+        <div class="collector__title">Коллекторы лишили спокойной жизни?
+        </div>
+        <div class="collector__subtitle">Благодаря нашей инструкции Вы сможете корректно и убедительно<br>
+            выстроить диалог, что дальнейшие претензии - бессмысленны!
+        </div>
+        <div class="collector__button">
+            <button class="collector__btn">
+                <a href="#modalForm">Скачать инструкцию</a>
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <section class="section" id="answer">
+        <div class="section__title">Развеем все мифы о банкротстве </div>
+        <div class="section__subtitle">Ответы на вопросы, которые нам чаще всего задают
+        </div>
+
+        <div class="accordion">
+            <div class="accordion__item" data-collapse="#accordion_1">
+                <div class="accordion__name">Можно ли взять кредит после банкротства?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p><b>Да, можно.<br>
+                            То что не дают кредит - это распространенная информация, которая не соответствует
+                            действительности.</b><br>
+                        <br>
+                        Банки одобряют кредиты основываясь на текущем финансовом состоянии заемщика.<br>
+                        <br>
+                        <b>Банкрот - это идеальный клиент для банка, потому что:</b><br>
+                        1. Отсутствует финансовая нагрузка - т.е. на текущий момент клиент не несет кредитных
+                        обязательств и имеет свободные средства для расчетов с банком.<br>
+                        2. Процедуру банкротства физического лица возможно проводить 1 раз в 5 лет - т.е. у банка есть
+                        гарантия того, что вы не сможете провести процедуру намеренно.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_2">
+                <div class="accordion__name">Запретят ли выезд за границу?</div><span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>Данное ограничение может ввести Арбитражный управляющий.<br>
+                        <b>Мы предоставляем своего Арбитражного управляющего для ведения процедуры.</b><br><br>
+
+                        Напоминаем, если Ваш долг передается в ФССП, то выезд будет закрыт до момента погашения
+                        задолженности. А процедура банкротства снимает действе ранее наложенных приставами ограничений и
+                        арестов.<br><br>
+
+                        <b>Так что данная процедура открывает выезд за границу гражданам, в отношении которых было
+                            применено данное ограничение.</b><br><br>
+
+                        Более подробную информацию Вы можете узнать на бесплатной консультации в офисе компании.<br><br>
+
+                        Банки одобряют кредиты основываясь на текущем финансовом состоянии заемщика.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_3">
+                <div class="accordion__name">Обязательно приходить на консультацию в офис?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>Да - это обязательно.<br><br>
+
+                        Не все вопросы можно обсудить по телефону в силу этики, ровно по тем же причинам вы не найдете
+                        100% достоверной информации в интернете.<br><br>
+
+                        <b>Каждую ситуацию необходимо разбирать индивидуально.</b><br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_4">
+                <div class="accordion__name">Что на счет бесплатного банкротства через МФЦ?
+                </div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>С 1-го сентября 2020 года данная процедура возможна, но не для всех.<br><br>
+
+                        Вот несколько факторов:<br>
+                        1. <b>На дату подачи заявления, в отношении должника должно быть прекращено исполнительное
+                            производство и не начато новое</b> - т.е., если хоть 1 из долгов передан приставам
+                        (просужен/
+                        передан в ФССП) вы не сможете подать на процедуру в МФЦ;<br>
+                        2. Если вы прошли первое условие, то вот подводный камень - Со дня включения сведений в ЕФРСБ,
+                        вводится мораторий на удовлетворение требований кредиторов, <b>за исключением требований
+                            кредиторов, не указанных в заявлении гражданина</b> - т.е. если вы не знаете одного из
+                        кредиторов
+                        (забыли, долг продан в компанию, которую вы и не знаете и т.п.) и не внесли его данные в
+                        заявления, то кредитор вправе далее требовать возврат средств.<br>
+                        3. В отличии от судебного банкротства, <b>внесудебное нельзя повторить 10 лет</b> (судебное 5
+                        лет).<br>
+                        4. Процедуру реализации имущества так же ни кто не отменял, <b>поэтому у неподготовленного
+                            человека
+                            велики шансы потерять ценные вещи.</b><br>
+                        5. <b>Даже не думайте продавать/дарить и т.п. какое-либо имущество</b>, т.к. в лучшем случае
+                        сделки
+                        оспорят и имущество передадут на торги, в худшем - расценят данные действия, как попытку
+                        сокрытия, а это попахивает мошенничеством.<br><br>
+
+                        Подробнее о процедуре внесудебного банкротства вы так же можете узнать на бесплатной
+                        консультации. Консультация не к чему не обязывает, она поможет Вам
+                        лучше разобраться в вопросе.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_5">
+                <div class="accordion__name">Сколько стоит процедура банкротства?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>Стоимость процедуры банкротства физического лица составляет 90 тысяч рублей (без учета судебных
+                        сборов) и 150 тысяч рублей, при заказе услуги "под ключ".<br><br>
+
+                        Так же мы предоставляем рассрочку для наших клиентов, ежемесячный платеж которой, в 2-3 раза
+                        меньше, чем средние платежи по кредитам обратившихся к нам клиентам.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_6">
+                <div class="accordion__name">Какая мне выгода?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>Многие говорят - "Какая выгода, что банку платить, что Вам..."<br><br>
+
+                        <b>Выгода очевидна:</b><br>
+                        Например, ваш долг составляет 500 тысяч рублей, а ежемесячный платеж 18 -20 тысяч рублей.
+                        Платить придется 5 лет... Нам - всего 3-9 месяцев (в зависимости от срока рассрочки).
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_7">
+                <div class="accordion__name">Можно ли сохранить имущество при банкротстве?
+                </div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p><b>В 97% случаев наши юристы помогают сохранить имущество.</b> Подробнее на данный вопрос сможем
+                        ответить на бесплатной консультации в офисе.<br><br>
+
+                        По Федеральному Закону № 127 «О несостоятельности (банкротстве)» все имущество должника, кроме
+                        единственного жилья и самых необходимых предметов быта, должно быть реализовано на торгах, а
+                        вырученные средства формируются в конкурсную массу и распределяются арбитражным управляющим
+                        среди кредиторов, заявившихся в процедуру.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_8">
+                <div class="accordion__name">Можно ли сохранить официальный доход?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p><b>В большинстве случаев можно.</b> Подробнее на данный вопрос сможем ответить на бесплатной
+                        консультации в офисе.<br><br>
+
+                        После признания вас банкротом все ваши доходы переходят в управление Арбитражного управляющего.
+                        Это значит, что они сохраняются на специальном счете и формируются в конкурсную массу, которая
+                        потом распределяется среди ваших кредиторов. Однако, вы имеете право выделить из конкурсной
+                        массы (сохранить себе) сумму в размере прожиточного минимума на вас и каждого из ваших
+                        иждивенцев, алименты, также можно выделить сумму на аренду жилья, лечение, обучение и т. д.
+                        Таким образом, чаще всего значительную часть официального дохода удается сохранить.
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_9">
+                <div class="accordion__name">Вы можете списать все долги?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p>Мы работаем по Федеральному Закону № 127 «О несостоятельности (банкротстве)», в соответствии с
+                        которым, через процедуру банкротства, <b>можно списать долги перед юридическими и физическими
+                            лицами, по кредитам, займам, распискам, а так же налоги, штрафы, долги по ЖКХ, долги по
+                            судебным
+                            решениям и исполнительным листам.</b><br><br>
+
+                        Не списываются долги по алиментам, причинению морального вреда и вреда здоровью, а также долги
+                        по субсидиарной ответственности.<br><br>
+
+                        Узнайте, можно ли списать ваши долги, прямо сейчас.
+                        Запишитесь на бесплатную консультацию!
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion__item" data-collapse="#accordion_10">
+                <div class="accordion__name">Какие гарантии?</div>
+                <span class="accordion__plus">+</span>
+                <div class="accordion__content">
+                    <p><b>Мы закрепляем финансовые гарантии в договоре:</b><br>
+                        1. Полный возврат средств за неисполнение обязательств;<br>
+                        2. Наша компания выплатит долг за Вас, если суд его не спишет<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contacts">
+        <div class="section__title blue">Контактные данные</div>
+        <div class="contacts">
+            <div class="contacts__left">
+                <div class="contacts__title">Контакты:</div>
+                <div class="contacts__street">г. Челябинск,<br>
+                    ул. Академика Королева д.17</div>
+                <div class="contacts__number">
+                    Телефон: <a href="#">+7 (995) 850-17-27</a>
+                </div>
+                <div class="contacts__mail">evazchel@yandex.ru</div>
+                <button class="contacts__btn">
+                    <a href="#zayavka">Заказать звонок</a></button>
+                <div class="contacts__whatsap">
+                    <a href="#"> <img src="assets/img/whatsap.png" alt=""> </a>
+                    Написать в Whatsapp
+                </div>
+                <div class="contacts__telegram">
+                    <a href="#"> <img src="assets/img/telegram.png" alt=""> </a>
+                    Написать в telegram
+                </div>
+                <div class="contacts__instagram">
+                    <a href="#"> <img src="assets/img/insta.png" alt=""> </a>
+                    Мы в Instagram
+                </div>
+            </div>
+            <div class="contacts__right">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/56/chelyabinsk/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Челябинск</a><a
+                        href="https://yandex.ru/maps/56/chelyabinsk/house/ulitsa_akademika_korolyova_17/YkgYdA5mQEEPQFtvfX13c35rbQ==/?ll=61.296947%2C55.162289&utm_medium=mapframe&utm_source=maps&z=17"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Академика Королёва, 17 —
+                        Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUujMAzcC" width="601"
+                        height="576" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__left">
+                <div class="footer__leftTitle">Навигация по сайту</div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#intro">Главная</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#benefits">Преимущества</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#rate">Услуги и цены</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#check">Провера по базе ФССП</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#collector">Инструкция по работе с коллеторами</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#results">Наши результаты</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#answer">Вопрос-ответ</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#" data-scroll="#contacts">Контакты</a>
+                </div>
+                <div class="footer__leftItem">
+                    <a id="nav" href="#">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer_rightTitle">+7 (926) 450-14-84</div>
+                <div class="footer__rightWork">Мы работаем ежедневно,<br>
+                    c 9 до 20 часов</div>
+                <div class="footer__rightItem">
+                    <a href="#zayavka">Заказать звонок</a>
+                </div>
+                <div class="footer__rightItem">
+                    <a href="#">Написать отзыв</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__footer">
+            <div class="footer__name">ООО “ЭВАЗ” 2016-2021</div>
+            <div class="footer__design">
+                <div>Разработка сайта </div> <span> DigitalSolutions</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modalForm">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a href="#" class="modal__close">X</a>
+                <div class="modal__title">Перезвоним через минуту! </div>
+                <div class="modal__subtitle">Оставьте контактные данные для<br>
+                    бесплатной консультации ПО ТЕЛЕФОНУ </div>
+                <input class="modal__input" placeholder="+7 (926) 450-14-84" name="phone">
+                <button class="modal__button">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modalFSSP" id="modalFSSP">
+        <div class="modalFSSP__body">
+            <div class="modalFSSP__content">
+                <a href="#" class="modalFSSP__close">X</a>
+                <div class="modalFSSP__title">Получите полную информацию<br>
+                    в течение одной минуты </div>
+                <div class="modalFSSP__subtitle">Заполните форму, с Вами свяжется наш сотрудник<br>
+                    и предоставит полную информацию из базы ФССП
+                </div>
+                <input class="modalFSSP__input" placeholder="ФИО" name="phone">
+                <input class="modalFSSP__input" placeholder="Год рождения" name="phone">
+                <input class="modalFSSP__input" placeholder="+7 (926) 450-14-84" name="phone">
+                <button class="modalFSSP__button">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
