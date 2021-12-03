@@ -18,7 +18,7 @@
 }
 
   @font-face {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     src: local('Graphik LCG medium'), local('Graphik-LCG-medium'),
         url('assets/fonts/graphikMedium/GraphikLCG-medium.woff2') format('woff2'),
         url('assets/fonts/graphikMedium/GraphikLCG-medium.woff') format('woff'),
@@ -54,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     margin: 0;
-    'GraphikMedium';
 }
 
 body.no-scroll {
@@ -82,19 +81,19 @@ body.no-scroll {
 }
 
 .collect__text {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 16px;
 }
 
 .collect a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     color: #000
 }
 
 .collect__close {
     margin-left: 20px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 16px;
@@ -179,19 +178,19 @@ body.no-scroll {
 
 .contact__number {
     margin-bottom: 5px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 23px;
 }
 
 .contact__number a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
    text-decoration: none;
    color: #000;
 }
 
 .contact__number:hover a {
     text-decoration: underline;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
 }
 
 .contact__subtitle {
@@ -210,7 +209,7 @@ body.no-scroll {
     background-color: #000f6b;
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -219,7 +218,7 @@ body.no-scroll {
 }
 
 .header_btn a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -311,7 +310,7 @@ body.no-scroll {
     box-shadow: 0px 0px 10px 5px rgba(221, 183, 16, 0.2);
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -320,7 +319,7 @@ body.no-scroll {
 }
 
 .intro__btn a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -354,7 +353,7 @@ body.no-scroll {
 
 .section__title {
     margin-bottom: 30px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 32px;
     color: #000;
 }
@@ -362,7 +361,7 @@ body.no-scroll {
 .section__title.blue {
     margin-bottom: 30px;
     margin-top: 144px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 32px;
     color: #000033;
 }
@@ -432,7 +431,7 @@ body.no-scroll {
     margin-top: 80px;
     margin-left: 40px;
     margin-bottom: 60px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 23px;
     color: #000;
 }
@@ -468,7 +467,7 @@ body.no-scroll {
     background-color: #000f6b;
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -477,7 +476,7 @@ body.no-scroll {
 }
 
 .rate__btn a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-decoration: none;
     color: #fff;
 }
@@ -538,7 +537,7 @@ body.no-scroll {
     background-color: #000f6b;
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -547,7 +546,7 @@ body.no-scroll {
 }
 
 .check__btn a {
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     color: #FFF;
     text-decoration: none;
 }
@@ -607,7 +606,7 @@ body.no-scroll {
     padding-top: 110px;
     margin-left: 150px;
     margin-bottom: 65px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 36px;
     color: #fff;
 }
@@ -632,7 +631,7 @@ body.no-scroll {
     background-color: #000f6b;
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -641,7 +640,7 @@ body.no-scroll {
 }
 
 .collector__btn a{
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     color: #fff;
     text-decoration: none;
 }
@@ -715,21 +714,21 @@ body.no-scroll {
 
 .contacts__title {
     margin-bottom: 10px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #000;
 }
 
 .contacts__street {
     margin-bottom: 10px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #000;
 }
 
 .contacts__number {
     margin-bottom: 10px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #000;
 }
@@ -745,7 +744,7 @@ body.no-scroll {
 
 .contacts__mail {
     margin-bottom: 144px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #000;
 }
@@ -759,7 +758,7 @@ body.no-scroll {
     background-color: #000f6b;
     cursor: pointer;
 
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-transform: uppercase;
     font-size: 14px;
     color: #fff;
@@ -768,7 +767,7 @@ body.no-scroll {
 }
 
 .contacts__btn a{
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     text-decoration: none;
     color: #FFF;
 }
@@ -780,7 +779,7 @@ body.no-scroll {
 .contacts__whatsap {
     align-items: center;
     margin-bottom: 20px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 12px;
     color: #000;
 }
@@ -794,7 +793,7 @@ body.no-scroll {
 .contacts__telegram {
     align-items: center;
     margin-bottom: 20px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 12px;
     color: #000;
 }
@@ -808,7 +807,7 @@ body.no-scroll {
 .contacts__instagram {
     align-items: center;
     margin-bottom: 20px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 12px;
     color: #000;
 }
@@ -840,14 +839,14 @@ body.no-scroll {
 
 .footer__leftTitle {
     margin-bottom: 25px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #fff;
 }
 
 .footer__leftItem {
     margin-bottom: 12px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
 }
 
@@ -872,14 +871,14 @@ body.no-scroll {
 
 .footer_rightTitle {
     margin-bottom: 40px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 40px;
     color: #FFF;
 }
 
 .footer__rightWork {
     margin-bottom: 45px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #fff;
     opacity: .44;
@@ -887,7 +886,7 @@ body.no-scroll {
 
 .footer__rightItem {
     margin-bottom: 15px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 18px;
     color: #fff;
     opacity: .44;
@@ -948,7 +947,7 @@ body.no-scroll {
 .footer__name {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-family: 'GraphikMedium';
+    font-family: 'Open Sans', sans-serif;;
     font-size: 23px;
     color: #fff;
     opacity: .44;
