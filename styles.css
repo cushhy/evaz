@@ -51,6 +51,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    font-family: 'GraphikMedium';
+}
+
 
 body {
     margin: 0;
@@ -542,6 +546,7 @@ body.no-scroll {
 }
 
 .check__btn a {
+    font-family: 'GraphikMedium';
     color: #FFF;
     text-decoration: none;
 }
